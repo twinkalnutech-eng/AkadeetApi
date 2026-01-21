@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family: Arial, sans-serif; font-size: 14px;">
+
+Dear <b>{{ name }}</b>,<br/><br/>
+
+Greeting from <b>Akadeet Entertainment Corporation, North America</b><br/><br/>
+
+Your ticket confirmation details :<br/><br/>
+
+<table border="1" cellpadding="6" cellspacing="0"
+       style="border-collapse: collapse; font-size: 14px;">
+    <tr>
+        <td><b>Booking Date Time</b></td>
+        <td>{{ booking_time }}</td>
+    </tr>
+    <tr>
+        <td><b>Mobile No</b></td>
+        <td>{{ mobile_no }}</td>
+    </tr>
+    <tr>
+        <td><b>Email Id</b></td>
+        <td>{{ email }}</td>
+    </tr>
+    <tr>
+        <td><b>Ticket Count</b></td>
+        <td>{{ ticket_count }}</td>
+    </tr>
+    <tr>
+        <td><b>Total Amount</b></td>
+        <td>{{ total_amount }} {{ currency }}</td>
+    </tr>
+</table>
+
+<br/><br/>
+Thank you for being a valued participant.<br/>
+Please present this ticket while entering the venue.
+
+</body>
+</html>

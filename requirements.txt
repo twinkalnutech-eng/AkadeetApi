@@ -1,0 +1,15 @@
+pyodbc
+python-dotenv
+qrcode
+cryptography
+pycryptodome
+twilio
+email-validator
+reportlab
+razorpay
+pymssql
+waitress
+flask
+flask-cors
+waitress
+mysql-connector-python
