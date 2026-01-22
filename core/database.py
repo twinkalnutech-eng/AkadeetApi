@@ -6,7 +6,7 @@ load_dotenv()
 
 def get_connection():
     host = os.getenv("DB_SERVER")
-    port = int(os.getenv("DB_PORT", 3306))
+    port = int(os.getenv("DB_PORT"))
     database = os.getenv("DB_DATABASE")
     username = os.getenv("DB_USERNAME")
     password = os.getenv("DB_PASSWORD")
