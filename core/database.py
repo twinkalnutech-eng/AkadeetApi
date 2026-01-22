@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 def get_connection():
-    host = os.getenv("DB_SERVER", "127.0.0.1")
+    host = os.getenv("DB_SERVER")
     port = int(os.getenv("DB_PORT", 3306))
     database = os.getenv("DB_DATABASE")
     username = os.getenv("DB_USERNAME")
